@@ -9,7 +9,7 @@ from random import randint
 class Machine(QMainWindow):
     def __init__(self):
         super().__init__()
-        uic.loadUi('button.ui', self)
+        uic.loadUi('UI.ui', self)
         self.initUI()
 
     def initUI(self):
